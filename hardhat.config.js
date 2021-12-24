@@ -2,6 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-truffle5");
 require('hardhat-deploy');
 require("hardhat-gas-reporter");
+require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
 
 // This is a sample Hardhat task. To learn how to create your own go to
@@ -32,8 +33,18 @@ module.exports = {
     rinkeby: {
       url: process.env.ALCHEMY_API_RINKEBY_KEY,
       accounts:{
-        "mnemonic": process.env.RINKEBY_TEST_MNEMONIC
+        "mnemonic": process.env.RINKEBY_TEST_MNEMONIC_1
       }
     },
+    mainnet: {
+      url: process.env.ALCHEMY_API_MAINNET_KEY, 
+      accounts:[process.env.MAINNET_PRIVATE_KEY],
+      gas: 206511,
+      gasPrice: 20000000000
+
+    }    
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY
   }
 };
