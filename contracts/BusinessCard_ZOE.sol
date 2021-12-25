@@ -8,45 +8,45 @@ import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 // | (__ | __ | | |  \ \/\/ /  / _ \  \ \/\/ /  / _ \    | |__ | |_| | \ V /
 //  \___||_||_||___|  \_/\_/  /_/ \_\  \_/\_/  /_/ \_\   |____| \___/   \_/
 
-//            /dyh+                                  
-//            m+ `od:                                
-//            N:  .+yy.                              
-//            N:   .+:h+                             
-//            m:    /-`oy. ````                      
-//            ss ``  o-`:yosoosso/-`                 
-//            `d+`/:.o-  ``    `.:oy+`               
-//             sd. +:.`..`         `+h://::///////:. 
-//             -ds/:.-yhs-    /`     ./://+oooo+/:+yy
-//               -yd`hMNNs .  /   `-`  `o--.`     .yy
-//                sy oyhho/-   . :ss+: s`       -sy: 
-//               .N- .`--`     -yMMmM-`s-    `:yy-   
-//               sN `//` :mNys` -yhh+/:/``ohos/`     
-//              .Mo/+o+  -MMMm. . :./Nshyy+`         
-//              -M-o+++/o+dNy  ./-  hy               
-//            `oh:s   `.-+/:+oo+/.-yh`               
-//          `+d+` s      -:. ```--:N-                
-//        -osh-   s             `:m+                 
-//      .sy:-/    o    ..       `do                  
-//     /h/` o`    .:    ::     .sN`                  
-//    /d.  +.      .     -`    :/m+                  
-//   `N:   o                    `+m                  
-//   :N   `+                     :M                  
-//   /N    o                     /m                  
-//   -M`   +                     do                  
-//    m/   +     .-:`      -:. .yh  `/.              
-//    hh  --        -.    `  . `M. +dmo              
-//   oh`+`+     .-`      `/:-   m/+d`oh              
-//  .N.  /y    `+       ://`   `M+N- +m              
-//  sh    s`   ::     ./- ./   -Mm/  yy              
-//  +m    -/   o`    :-`   o   .h.  :N.              
-//  .M.   `o   o     `  .-`::   s  /d:               
-//  `yd:../+  ./       ./dd/y   s:sy-                
-// -hy+:-/M.  `hs+:-ossyymMs+:  /N/                  
-// md-o:+oy   `N/-/+:..  .myoy`  /h:`                
-// -syyhNy`   sh          `-:sh`  .yss+-`            
-//    od:    -N-              sh:    :/hdo           
-//   +Mo:`/.`do                :hyssosmymd`          
-//   -mmyydyy/                     ...` `            
+//                        /dyh+                                  
+//                        m+ `od:                                
+//                        N:  .+yy.                              
+//                        N:   .+:h+                             
+//                        m:    /-`oy. ````                      
+//                        ss ``  o-`:yosoosso/-`                 
+//                        `d+`/:.o-  ``    `.:oy+`               
+//                         sd. +:.`..`         `+h://::///////:. 
+//                         -ds/:.-yhs-    /`     ./://+oooo+/:+yy
+//                           -yd`hMNNs .  /   `-`  `o--.`     .yy
+//                            sy oyhho/-   . :ss+: s`       -sy: 
+//                           .N- .`--`     -yMMmM-`s-    `:yy-   
+//                           sN `//` :mNys` -yhh+/:/``ohos/`     
+//                          .Mo/+o+  -MMMm. . :./Nshyy+`         
+//                          -M-o+++/o+dNy  ./-  hy               
+//                        `oh:s   `.-+/:+oo+/.-yh`               
+//                      `+d+` s      -:. ```--:N-                
+//                    -osh-   s             `:m+                 
+//                  .sy:-/    o    ..       `do                  
+//                 /h/` o`    .:    ::     .sN`                  
+//                /d.  +.      .     -`    :/m+                  
+//               `N:   o                    `+m                  
+//               :N   `+                     :M                  
+//               /N    o                     /m                  
+//               -M`   +                     do                  
+//                m/   +     .-:`      -:. .yh  `/.              
+//                hh  --        -.    `  . `M. +dmo              
+//               oh`+`+     .-`      `/:-   m/+d`oh              
+//              .N.  /y    `+       ://`   `M+N- +m              
+//              sh    s`   ::     ./- ./   -Mm/  yy              
+//              +m    -/   o`    :-`   o   .h.  :N.              
+//              .M.   `o   o     `  .-`::   s  /d:               
+//              `yd:../+  ./       ./dd/y   s:sy-                
+//             -hy+:-/M.  `hs+:-ossyymMs+:  /N/                  
+//             md-o:+oy   `N/-/+:..  .myoy`  /h:`                
+//             -syyhNy`   sh          `-:sh`  .yss+-`            
+//                od:    -N-              sh:    :/hdo           
+//               +Mo:`/.`do                :hyssosmymd`          
+//               -mmyydyy/                     ...` `            
 
 
 contract BusinessCard_ZOE is ERC1155{
@@ -56,7 +56,7 @@ contract BusinessCard_ZOE is ERC1155{
 	string private _name = "ZOE";
 	string private _symbol = "ZOE";
 	string public Team = "pupupupuisland";
-	string public Job_Title = "Game Deisgner";
+	string public Job_Title = "Game Designer";
 	string public Email = "pupupupuisland@gmail.com";
 	string public Twitter = "@pupupupuisland";
 	string public Personal_Twitter = "@Zoeyeeyeeyee";
@@ -67,7 +67,7 @@ contract BusinessCard_ZOE is ERC1155{
 
 	// Constructor
 	// ------------------------------------------------------------------------
-	constructor() ERC1155("https://gateway.pinata.cloud/ipfs/QmfM3ZZAF1YezpLeMErKqVPn6VUAGXq7Zff16HV29kWy15"){
+	constructor() ERC1155("https://gateway.pinata.cloud/ipfs/QmSjBpN51HgQUepdUgdBddmZAVtj4WdCP6NtKhEDH1cRQp"){
 		_mint(owner_2, 1, 300, "");
 	}
 

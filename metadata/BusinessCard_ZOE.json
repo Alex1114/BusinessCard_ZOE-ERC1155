@@ -1,14 +1,14 @@
 {
     "tokenId": 1,
     "name": "Business Card_ZOΞ",
-    "image": "https://gateway.pinata.cloud/ipfs/QmNXPk1UKYuF4suHYd1jTnZyjzNQ7CDAYcqgZJi5Tbbsnr",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd3t1kRFdD2RAafuqVtZRewk3LwacYj5ozf1fB9rNfUb1",
     "description": "Official business card of Zoe, a digital artist making digital shit for a living.\nLook into the smart contract for more information.",
     "attributes": [{
         "trait_type": "Name",
         "value": "Zoe"
     }, {
         "trait_type": "Title",
-        "value": "Game Deisgner"
+        "value": "Game Designer"
     }, {
         "trait_type": "Twitter",
         "value": "@Zoeyeeyeeyee"
